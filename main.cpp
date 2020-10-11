@@ -1,7 +1,12 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+     int X, Y, Result = 0, Check;
+    double R;
+
+//Стреляем
+    cout << "Введите координаты X и Y" << endl;
+    cin >> X;
+    cin >> Y;
+           cout <<"X= "<<X<<"Y="<<Y;
     return 0;
-    std::cout << "Liss" << std::endl;
-}
